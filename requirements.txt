@@ -14,3 +14,4 @@ whitenoise
 pytest
 gunicorn
 gevent
+django-unfold
