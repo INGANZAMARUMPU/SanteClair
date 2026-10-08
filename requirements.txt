@@ -1,0 +1,16 @@
+Django
+django-admin-rangefilter
+django-cors-headers
+django-db-connection-pool
+django-filter
+django-import-export
+django-utils-six
+djangorestframework
+djangorestframework-simplejwt
+pillow
+PyMySQL
+pytz
+whitenoise
+pytest
+gunicorn
+gevent
