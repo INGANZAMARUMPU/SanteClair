@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-e34tzb1y$wi0r7*^y&rq-d(@q-zb@f&lk02m-x%7s6xb0-#syp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     'unfold',
