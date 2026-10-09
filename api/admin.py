@@ -61,7 +61,7 @@ class ConsultationAdmin(ModelAdmin):
 
 @admin.register(PaymentMethod)
 class PaymentMethodAdmin(ModelAdmin):
-    list_display = ('id', 'libelle', 'numero', 'description')
+    list_display = ('id', 'nom', 'libelle', 'numero', 'description')
     search_fields = ('libelle', 'numero')
 
 @admin.register(Paiement)

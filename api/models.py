@@ -60,9 +60,10 @@ class Consultation(models.Model):
 
 class PaymentMethod(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    nom = models.CharField(max_length=100)
     numero = models.CharField(max_length=100)
     libelle = models.CharField(max_length=100)
-    description = models.TextField()
+    description = models.TextField(null=True, blank=True)
 
     def __str__(self):
         return f"{self.libelle} ({self.numero})"
