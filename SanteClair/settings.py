@@ -12,6 +12,9 @@ SECRET_KEY = 'django-insecure-e34tzb1y$wi0r7*^y&rq-d(@q-zb@f&lk02m-x%7s6xb0-#syp
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+DOMAIN_NAME = ["https://www.santeclair.inganza.bi"]
+CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ["https://*.santeclair.inganza.bi"]
 
 INSTALLED_APPS = [
     'unfold',
